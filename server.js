@@ -15,7 +15,7 @@ const uri = process.env.MONGO_URI;
 
  
 
-var serviceAccount = require("./hotel-book-41493-firebase-adminsdk-avts0-2df463733a.json");
+var serviceAccount = require("./configs/hotel-book-41493-firebase-adminsdk-avts0-2df463733a.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
