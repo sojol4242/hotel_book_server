@@ -1,0 +1,19 @@
+{
+  "name": "hotel-book-server",
+  "version": "1.0.0",
+  "description": "hotel bokking system",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sojol",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.5.0",
+    "mongodb": "^3.6.5"
+  }
+}
